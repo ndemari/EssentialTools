@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EssentialTools.Models {
     public interface IDiscountHelper
     {
-        decimal ApplyDiscount(decimal TotalParam);
+        decimal ApplyDiscount(decimal totalParam);
     }
 
     public class DefaultDiscountHelper : IDiscountHelper
